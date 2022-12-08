@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="hostUrl" value="https://testsheepnz.github.io/BasicCalculator.html"/>
+    <test verbose="2" preserve-order="true" name="C:/Automation2022/src/net/media/test/CalcTester.java">
+        <classes>
+            <class name="net.media.test.CalcTester">
+                <methods>
+                    <include name="accessUrl"/>
+                    <include name="elementDisplayValidator"/>
+                    <include name="fieldLabelChecker"/>
+                    <include name="inputNotAllowedChecker"/>
+                    <include name="inputAllowedChecker"/>
+                    <include name="checkClearButton"/>
+                    <include name="answerFieldNotInput"/>
+                    <include name="calculationCases"/>
+                    <include name="validationMessageChecker"/>
+                    <include name="integersOnlyCheckboxChecker"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="hostUrl" value="https://www.demoblaze.com/index.html"/>
+    <test verbose="2" preserve-order="true" name="C:/Automation2022/src/net/media/assignment3/TesterClass.java">
+        <classes>
+            <class name="net.media.assignment3.ShoppingCartCases">
+                <methods>
+                    <include name="checkItemsAvailability"/>
+                    <include name="checkItemsByCategory"/>
+                    <include name="addToCartAndCheck"/>
+                    <include name="checkRemovalFromCart"/>
+                    <include name="totalCalculateCase"/>
+                    <include name="placeOrderReceiptCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

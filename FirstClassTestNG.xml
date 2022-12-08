@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="hostUrl" value="https://demoqa.com/automation-practice-form"/>
+    <test verbose="2" preserve-order="true" name="C:/Automation2022/src/net/media/test/FirstClass.java">
+        <classes>
+            <class name="net.media.test.FirstClass">
+                <methods>
+                    <include name="elementVisibilityCheck"/>
+                    <include name="testMethod2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

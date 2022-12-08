@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="hostUrl" value="https://demoqa.com/automation-practice-form"/>
+    <test verbose="2" preserve-order="true" name="C:/Automation2022/src/net/media/test/FormCases.java">
+        <classes>
+            <class name="net.media.assignment2.FormCases">
+                <methods>
+                    <include name="elementChecking"/>
+                    <include name="labelsChecker"/>
+                    <include name="inputFieldsTestCases"/>
+                    <include name="radioAndCheckboxChecker"/>
+                    <include name="datePickerCases"/>
+                    <include name="submitWithoutMandatory"/>
+                    <include name="checkTheFormInputOnModal"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
